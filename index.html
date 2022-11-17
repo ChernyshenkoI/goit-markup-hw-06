@@ -419,28 +419,19 @@
               rel="noopener noreferrer">
               м. Київ, пр-т Лесі Українки, 26 </a>
           </li >
-
           <li class="footer-adress-top" >
             <a class="link footer-contact" href="mailto:info@example.com"
               >info@example.com</a>
           </li >
-
           <li class="footer-adress-top">
             <a class="link footer-contact" href="tel:+380991111111"
               >+38 099 111 11 11</a>
           </li>
-
         </ul>
-      </address>
-    
-   
-
-
+      </address> 
   </div>
   <div class="footer-follow">
-      
       <h2 class="title-follow">Приєднуйтесь</h2>
-
       <ul class="footer-social-links">
 
         <li class="footer-social-item">
@@ -476,9 +467,7 @@
         </li>
 
       </ul>
-
     </div>
-
   </div>  
   
   </footer>
@@ -492,6 +481,88 @@
       </button>
     </div>
   </div>
+
+
+
+
+  <div class="modal-container">
+    <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+    <form class="modal-form" action="">
+      <div class="input-container">
+        <label class="modal-label" for="user-name">Ім'я</label>
+        <div class="modal-wrap">
+          <input
+            class="modal-input"
+            type="text"
+            name="name"
+            id="user-name"
+          />
+          <svg class="modal-icon">
+            <use href="./images/icons.svg#icon-name"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="input-container">
+        <label class="modal-label" for="user-tel">Телефон</label>
+        <div class="modal-wrap">
+          <input
+            class="modal-input"
+            type="tel"
+            name="phone"
+            id="user-tel"
+          />
+          <svg class="modal-icon">
+            <use href="./images/icons.svg#icon-tel"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="input-container">
+        <label class="modal-label" for="user-mail">Пошта</label>
+        <div class="modal-wrap">
+          <input
+            class="modal-input"
+            type="email"
+            name="email"
+            id="user-mail"
+          />
+          <svg class="modal-icon">
+            <use href="./images/icons.svg#icon-e"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="input-container">
+        <label class="modal-label" for="user-text">Коментар</label>
+        <textarea
+          class="modal-comment"
+          name="comment"
+          id="user-text"
+          placeholder="Введіть текст"
+        ></textarea>
+      </div>
+
+      <input class="policy-check visually-hidden" type="checkbox" name="policy" id="policy"/>
+            <label class="policy-label" for="policy">
+              <span><svg class="policy-icon" width="16px" height="15px">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              Погоджуюся з розсилкою та приймаю&nbsp;
+              <a class="policy-link" href=""  target="_blank" noopener norefferer>Умови договору</a>
+            </label>
+            <button class="btn modal-btn" type="submit">Відправити</button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
 
 
 
