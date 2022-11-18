@@ -198,11 +198,13 @@ body{
   .modal-comment:focus {
     outline: 1px solid var(--accent-color);
   }
+
+
   .policy-label {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondary-color);
+    color: var(--light-text-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,7 +213,6 @@ body{
     color: var(--accent-color);
     text-decoration: underline;
   }
-
   .input-container:nth-child(4) {
     margin-bottom: 20px;
   }
@@ -222,7 +223,7 @@ body{
   .policy-label span {
     width: 16px;
     height: 15px;
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--text-color);
     border-radius: 2px;
     fill: transparent;
     margin-right: 7px;
@@ -236,14 +237,13 @@ body{
     border: transparent;
   }
   .policy-check:checked + .policy-label .policy-icon {
-    fill: var(--add-color);
+    fill: var(--accent-text-color);
   }
   .modal-btn {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
   }
-
 
 
 
@@ -754,6 +754,7 @@ background-color: var(--accent-color);
     height: 24px;
     width: 24px;
     margin-left: 10px;  
+    fill: var(--accent-text-color);
   }
 
   .footer-form-wrap {
@@ -762,7 +763,7 @@ background-color: var(--accent-color);
   }
 
   .footer-form-btn {
-    display: flex;
+    display: inline-flex;
     align-items: center;
   }
   
@@ -779,7 +780,7 @@ background-color: var(--accent-color);
   height: 50px;
   text-align: center;
   border-radius: 4px;
-
+  padding: 10px 28px;
   border: none;
 }
 
